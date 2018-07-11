@@ -50,6 +50,8 @@ func Import(database, filename string) (err error) {
 }
 
 // ReplaceArgs will replace arguments for queries
+// This is quite useful when preparing statements with replacement variables
+// without having to rely on an ORM
 func ReplaceArgs(query string, args ...string) (out string) {
 	for i, arg := range args {
 		search := fmt.Sprintf("$%d", i+1)
