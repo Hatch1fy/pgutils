@@ -23,6 +23,11 @@ func Dump(cfg Config, w io.Writer) (err error) {
 	)
 
 	cmd.Env = append(os.Environ(), fmt.Sprintf("PGPASSWORD=%s", cfg.Password))
+
+	if cfg.SSL {
+		cmd.Env = append(cmd.Env, "PGSSLMODE=allow")
+	}
+
 	cmd.Stdout = w
 	cmd.Stderr = errBuf
 
