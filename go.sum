@@ -1,4 +1,4 @@
 github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/Hatch1fy/errors v0.3.2 h1:YoBsoEY2YmAFcBAeF8WSkR2HEp1IqCzwtSxSvk/NCtk=
-github.com/Hatch1fy/errors v0.3.2/go.mod h1:SJFCeScmERvwtYMG7EU24Fe0KfXmiIs7tNlcIl0STKk=
+github.com/Hatch1fy/errors v0.3.3 h1:VgJbpt/pPVY8sPN1sRbRhYyKHg2Xgt93DY1sIPYBRHk=
+github.com/Hatch1fy/errors v0.3.3/go.mod h1:SJFCeScmERvwtYMG7EU24Fe0KfXmiIs7tNlcIl0STKk=
