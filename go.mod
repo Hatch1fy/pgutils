@@ -1,4 +1,4 @@
-module github.com/Hatch1fy/pgutils
+module github.com/hatchify/pgutils
 
 go 1.14
 
